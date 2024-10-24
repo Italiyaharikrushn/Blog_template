@@ -2,45 +2,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- title -->
+    <title>Blog Template</title>
 
-        <title>Blog Template</title>
-    </head>
+    <!-- main css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+    <!-- bootstrap / css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-    <body>
-        <!-- header -->
-        <header>
-            <!-- Add header content here -->
-            <nav class="row">
-                <div class="col-12">
-                    <div class="">
-                        <a class="btn" href="#">Home</a>
-                        <a class="btn" href="#">Blog</a>
-                        <a class="btn" href="#">Archive</a>
-                        <a class="btn" href="#">Page</a>
-                        <a class="btn" href="#">Shortcodes</a>
-                        <a class="btn" href="#">Contact</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+<body>
+    <!-- header -->
+    <header>
+        <!-- Navigation bar -->
+        <nav class="row">
+            <div class="col-12 text-center">
+                <a class="btn btn-link" href="#">Home</a>
+                <a class="btn btn-link" href="#">Blog</a>
+                <a class="btn btn-link" href="#">Archive</a>
+                <a class="btn btn-link" href="#">Page</a>
+                <a class="btn btn-link" href="#">Shortcodes</a>
+                <a class="btn btn-link" href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-        <!-- section -->
-        <section>
-        </section>
+    <!-- section -->
+    <section class="container my-5">
+        <!-- Add section content here -->
+    </section>
 
-        <!-- footer -->
-        <footer>
-            <p>© 2016 Copyright 2016, Dot. All Rights Reserved</p>
-        </footer>
+    <!-- footer -->
+    <footer>
+        <p>© 2024 Copyright, All Rights Reserved</p>
+    </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"></script>
-    </body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 
 </html>
